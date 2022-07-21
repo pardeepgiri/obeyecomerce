@@ -108,7 +108,7 @@ body{
     
       margin: 15px;
       padding: 10px;
-      width: 390px;
+      width: 310px;
       height: 200px;
      
 
@@ -118,8 +118,8 @@ body{
 #fashionimagemain{
   width: 150px;
   height: 170px;
-  margin-left: 50px;
-  margin-right:50px ;
+  margin-left: 40px;
+  margin-right:40px ;
   border-radius: 20px;
 }
 
@@ -133,10 +133,10 @@ body{
 
 .flex-containerwoman div {
 background-color:  #fff;
-  margin: 15px;
-  padding: 10px;
-  width: 390px;
-  height: 400px;
+  margin: 10px;
+    padding: 10px;
+    width: 310px;
+    height: 400px;
 }
 .aboutpagebackgroundimage{
   width: 100%;
