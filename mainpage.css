@@ -1,202 +1,202 @@
-
 body{
-  margin: 0px;
-  padding: 0px;
-  background-color: whitesmoke;
-}
-
-.flex-container {
-    display: flex;
-   background-color: darkturquoise;
-   width: 100%;
-   flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+  }
+  
+  .flex-container {
+      display: flex;
+     background-color: darkturquoise;
+     width: 100%;
+     flex-wrap: wrap;
+     
+    }
+    
+    .flex-container > div {
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      background-color:white ;
+      border-radius: 5px;
+    }
+  
+    .flex-containerone {
+      display: flex;
+      background-color: #c9d1cb;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-left: 30px;
+  }
+   
+  .flex-containerone div {
+    background-color: white;
+      margin: 10px;
+      padding: 10px;
+      width: 380px;
+      height: 400px;
+  }
+    
+  .formpage1{
+    text-align: center;
+    background-color: white;
+    color: black;
+  
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    height: 380px;
+    border: 3px double greenyellow;
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 0px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+  }
+  
+  .formpagemain{
+    background-color: darkturquoise;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    height: 600px;
+    font-family: sans-serif;
+  }
+  
+  .footermain{
+    
+    background-color:#3b4454;
+    color: white;
+    width: 100%;
    
   }
   
-  .flex-container > div {
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    background-color:white ;
-    border-radius: 5px;
+  .flex-footer{
+    width: 100%;
+    height: 80px;
+    background-color: #3b4454;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-
-  .flex-containerone {
+  .flex-footer div{
+    background-color:#3b4454;
+    color: #fff;
+    
+    padding: 10px;
+    width: 310px;
+  
+    padding-left: 20px;
+  
+  }
+  
+  
+  
+  .flex-containermain{
     display: flex;
     background-color: #c9d1cb;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  
+  .flex-containermain div{
     
-}
- 
-.flex-containerone div {
-  background-color: white;
+      
+        margin: 10px;
+        padding: 10px;
+        width: 340px;
+        height: 200px;
+        padding-left: 40px;
+       
+  
+    
+  }
+  
+  #fashionimagemain{
+    width: 150px;
+    height: 170px;
+    margin-left: 30px;
+    margin-right:30px ;
+    border-radius: 2px;
+  }
+  
+  .flex-containerwoman {
+    display: flex;
+    background-color: #c9d1cb;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 30px;
+  }
+  
+  .flex-containerwoman div {
+  background-color:  #fff;
     margin: 10px;
-    padding: 10px;
-    width: 340px;
-    height: 400px;
-}
-  
-.formpage1{
-  text-align: center;
-  background-color: white;
-  color: black;
-
-  padding: 10px;
-  font-size: 20px;
-  font-family: sans-serif;
-  padding-top: 40px;
-  height: 380px;
-  border: 3px double greenyellow;
-  width: 40%;
-  margin-top: 0px;
-  margin-left: 30%;
-  margin-right: 30%;
-  padding-top: 0px;
-  margin-bottom: 40px;
-  border-radius: 30px;
-}
-
-.formpagemain{
-  background-color: darkturquoise;
-  color: white;
-  text-align: center;
-  padding-top: 30px;
-  font-size: 40px;
-  height: 600px;
-  font-family: sans-serif;
-}
-
-.footermain{
-  
-  background-color:#3b4454;
-  color: white;
-  width: 100%;
- 
-}
-
-.flex-footer{
-  width: 100%;
-  height: 80px;
-  background-color: #3b4454;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.flex-footer div{
-  background-color:#3b4454;
-  color: #fff;
-  
-  padding: 10px;
-  width: 310px;
-
-  padding-left: 20px;
-
-}
-
-
-
-.flex-containermain{
-  display: flex;
-  background-color: #c9d1cb;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.flex-containermain div{
-  
-    
-      margin: 10px;
       padding: 10px;
-      width: 340px;
-      height: 200px;
-     
-
+      width: 380px;
+      height: 400px;
+  }
+  .aboutpagebackgroundimage{
+    width: 100%;
+    height: 600px;
+   background-color: #fcba03;
+  }
   
-}
-
-#fashionimagemain{
-  width: 150px;
-  height: 170px;
-  margin-left: 30px;
-  margin-right:30px ;
-  border-radius: 2px;
-}
-
-.flex-containerwoman {
-  display: flex;
-  background-color: #c9d1cb;
-  flex-direction: row;
-  flex-wrap: wrap;
+  .aboutbackgroundimagesecond{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    background-color:#381e96 ;
+  }
   
-}
-
-.flex-containerwoman div {
-background-color:  #fff;
-  margin: 10px;
+  .backgrounddiv{
+  
+    height: 50px;
+    border: 10px dotted#c91622;
+    background-color: white;
+    color: #381e96;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 7%;
+   
+    
+  }
+  
+  .obeystory{
     padding: 10px;
-    width: 340px;
-    height: 400px;
-}
-.aboutpagebackgroundimage{
-  width: 100%;
-  height: 600px;
- background-color: #fcba03;
-}
-
-.aboutbackgroundimagesecond{
-  width: 80%;
-  height: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 50px;
-  background-color:#381e96 ;
-}
-
-.backgrounddiv{
-
-  height: 50px;
-  border: 10px dotted#c91622;
-  background-color: white;
-  color: #381e96;
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-left: 7%;
- 
+   width:300px ;
+    font-size: 30px;
+    height: 45px;
+   
+  }
   
-}
-
-.obeystory{
-  padding: 10px;
- width:300px ;
-  font-size: 30px;
-  height: 45px;
- 
-}
-
-.backgroundabouttwo{
-  background-color: white;
-  width: 60%;
-  height:200px ;
-  margin-right: 20%;
-  margin-left: 20%;
-
- border-top: 30px dotted green ;
-}
-
-.coming{
-  text-align: center;
-  color: black;
-  font-size: 35px;
-  font-family: sans-serif;
-  margin-top: 60px;
-}
-.comin{
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  font-family: monospace;
+  .backgroundabouttwo{
+    background-color: white;
+    width: 60%;
+    height:200px ;
+    margin-right: 20%;
+    margin-left: 20%;
   
-
-}
+   border-top: 30px dotted green ;
+  }
+  
+  .coming{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 60px;
+  }
+  .comin{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    
+  
+  }
